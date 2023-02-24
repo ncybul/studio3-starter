@@ -1,0 +1,21 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    margin: 1em;
+}
+
+[aria-label="Task"] {
+    width: 400px; 
+}
+
+[aria-label="Done?"]:checked + [aria-label="Task"] {
+    text-decoration: line-through;
+}
+
+ul {
+    list-style: none;
+}
+
+
